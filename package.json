@@ -1,5 +1,5 @@
 {
-  "name": "labs-creator-client",
+  "name": "labs-creator-frontend",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,14 +9,26 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/react-redux": "^7.1.18",
+    "@types/redux": "^3.6.0",
+    "@types/redux-saga": "^0.10.5",
+    "axios": "^0.21.1",
+    "immer": "^9.0.5",
     "next": "11.1.0",
+    "next-redux-wrapper": "^7.0.2",
+    "prettier": "^2.3.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.1",
+    "redux-saga": "^1.1.3"
   },
   "devDependencies": {
     "@types/react": "17.0.19",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.0",
+    "redux-devtools-extension": "^2.13.9",
     "typescript": "4.3.5"
   }
 }
